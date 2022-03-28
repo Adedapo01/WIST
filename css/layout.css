@@ -1,0 +1,64 @@
+body{
+    background-color: pink;
+}
+table{
+    border: none;
+    border-color: pink;
+}
+/*--nav starts here--*/
+nav {
+    padding:15px;
+    font-size:18px;
+    background: rgba(0, 0, 0, .2);
+    font-family:sans-serif
+}
+
+img {
+    width: 200px;
+    
+}
+
+.logo img {
+    margin-bottom: -50px;
+    
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul {
+    text-align: center;
+    margin-right: 80px;
+}
+
+nav a{
+    text-decoration: none;
+    padding:15px;
+    color:ghostwhite;
+    transition: padding-bottom .3s;
+}
+nav ul a:hover{
+    border-bottom: 2px solid green;
+    padding-bottom: 3px;
+}
+/*--nav ends here--*/
+
+/*--header-words starts here--*/
+.header-words{
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.header-words p{
+    margin:20px;
+}
+.header-words p:nth-of-type(1){
+    font-size: 60px;
+    font-family: sans-serif;
+    color:white;
+    text-align: center;
+
+}
+/*--header-words ends here--*/
