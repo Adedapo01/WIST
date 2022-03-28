@@ -68,6 +68,8 @@ nav ul a:hover{
 }
 .header-words p:nth-of-type(3){
     margin-top:30px;
+    font-size: 20px;
+    font-family: calibri;
 }
 .header-words a{
     text-decoration: none;
@@ -88,6 +90,54 @@ a.reglink {
 }
 
 /*--header-words ends here--*/
+
+/*--about-words starts here--*/
+.about-words{
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.about-words p{
+    margin:20px;
+}
+.about-words p:nth-of-type(1){
+    font-size: 60px;
+    font-family: sans-serif;
+    color:white;
+    text-align: center;
+
+}
+.about-words p:nth-of-type(2){
+    font-size: 30px;
+    font-family: calibri;
+
+}
+.about-words p:nth-of-type(3){
+    margin-top:30px;
+    font-size: 20px;
+    font-family: calibri;
+}
+.about-words a{
+    text-decoration: none;
+    font-family: calibri;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:5px;
+    margin-right: 70px;
+    padding: 15px 30px;
+
+}
+.about-words a[href^="tel:"]:before {
+    content: "\260e";
+    margin-right: 10px;
+  }
+.about-words a:hover{
+    color: green;
+}
+
+
+/*--about-words ends here--*/
 
 /*--logos starts here--*/
 .logos {
